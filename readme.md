@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/binarystash/wp-outside-links-in-new-tabs.svg)](https://travis-ci.org/binarystash/wp-outside-links-in-new-tabs)
+
 #WP Outside Links In New Tabs
 
 This plugin parses the content of posts and pages and sets the target attribute of external links to "_blank". The process is done on the server.
