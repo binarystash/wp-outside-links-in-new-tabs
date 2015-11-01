@@ -53,7 +53,7 @@ class WP_Outside_Links_In_New_Tabs_Parser {
 		
 		/* Return HTML */
 		
-		return $doc->saveHTML();
+		return trim($doc->saveHTML());
 		
 	}
 	
