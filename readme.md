@@ -13,4 +13,4 @@ Wordpress 3.9 to 4.2.2
 
 ## Support
 
-Report bugs at https://github.com/binarystash/media-dimensions/issues.
+Report bugs at https://github.com/binarystash/wp-outside-links-in-new-tabs/issues.
