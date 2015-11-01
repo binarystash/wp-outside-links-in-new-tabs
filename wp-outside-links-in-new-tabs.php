@@ -33,20 +33,6 @@ foreach( $wp_outside_links_in_new_tabs_classes as $class ) {
 	include WP_OUTSIDE_LINKS_IN_NEW_TABS_DIR . 'classes' . DIRECTORY_SEPARATOR . $class;
 	
 }
-
-/*
- * Include third-party components
- */
-
-$wp_outside_links_in_new_tabs_third_party_components = array(
-	'htmlawed' . DIRECTORY_SEPARATOR . 'loader.php'
-); 
- 
-foreach( $wp_outside_links_in_new_tabs_third_party_components as $component ) {
-	
-	include WP_OUTSIDE_LINKS_IN_NEW_TABS_DIR . 'third-party' . DIRECTORY_SEPARATOR . $component;
-	
-}
  
 /**
  * Initialize plugin
