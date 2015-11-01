@@ -24,8 +24,8 @@ if(!defined('WP_OUTSIDE_LINKS_IN_NEW_TABS_DIR')){
  */
  
 $wp_outside_links_in_new_tabs_classes = array(
-	'wp-outside-links-in-new-tabs-controller.php',
-	'wp-outside-links-in-new-tabs-parser.php'
+	'class-wp-outside-links-in-new-tabs-controller.php',
+	'class-wp-outside-links-in-new-tabs-parser.php'
 ); 
  
 foreach( $wp_outside_links_in_new_tabs_classes as $class ) {

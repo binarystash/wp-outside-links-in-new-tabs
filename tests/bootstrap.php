@@ -16,4 +16,4 @@ require $_tests_dir . '/includes/bootstrap.php';
 
 //Load classes to be tested
 
-require_once WP_OUTSIDE_LINKS_IN_NEW_TABS_DIR . 'classes/class-media-dimensions-image.php';
+require_once WP_OUTSIDE_LINKS_IN_NEW_TABS_DIR . 'classes/class-wp-outside-links-in-new-tabs-parser.php';
