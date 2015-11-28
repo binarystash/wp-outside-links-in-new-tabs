@@ -11,7 +11,7 @@ class WP_Outside_Links_In_New_Tabs_Parser {
 	function parse($content) {
 		
 		$doc = new DOMDocument();
-		$doc->loadHTML("<div>".$content."</div>");
+		@$doc->loadHTML("<div>".$content."</div>");
 		$links = $doc->getElementsByTagName('a');
 		
 		$blogurl = get_bloginfo("url");
